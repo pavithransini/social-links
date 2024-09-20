@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .links a{
+    text-decoration: none;
+    border: 1px solid;
+    font: 30px;
+    
+    padding: 10px 40px;
+  }
